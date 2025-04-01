@@ -24,6 +24,3 @@ gradio/
 *.tmp
 *.bak
 .DS_Store
-
-# Ignore system files
-Thumbs.db
