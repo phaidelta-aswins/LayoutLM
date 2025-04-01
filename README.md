@@ -23,6 +23,14 @@ Ensure you have the following installed:
 
 ### Install Dependencies
 
+You can install the required dependencies using `requirements.txt`. Run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Alternatively, you can install dependencies manually:
+
 ```bash
 pip install torch==2.6.0 transformers==4.36.2 pytesseract==0.3.10 opencv-python==4.9.0.80 numpy==1.26.3 Pillow==10.2.0 gradio==5.16.0 pip==25.0.1
 ```
@@ -58,6 +66,7 @@ Myproject/
 │   │── database.py         # SQLite database management
 │── .gitignore              # Git ignore file
 │── README.md               # Project documentation
+│── requirements.txt        # Required dependencies
 ```
 
 ---
@@ -102,30 +111,3 @@ This will start a local web server where you can upload images for processing.
 - Supports inserting extracted data into the database.
 
 ---
-
-## Example Output
-After processing an image, the UI displays:
-
-- The original image with bounding boxes around extracted text.
-- A structured table of words and their predicted tags.
-- A status message indicating the image quality.
-
----
-
-## Future Enhancements
-- Add support for more image preprocessing techniques.
-- Improve noise detection and adaptive thresholding.
-- Extend database functionality to support searching and filtering.
-
----
-
-## License
-This project is open-source under the MIT License.
-
----
-
-## Author
-[Your Name]
-
-For questions, feel free to reach out!
-
