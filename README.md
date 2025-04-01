@@ -56,7 +56,6 @@ Myproject/
 │   │── model.py            # Model loading & text extraction
 │   │── ui.py               # Gradio UI for image processing
 │   │── database.py         # SQLite database management
-│   │── Dockerfile          # (Optional) Docker setup
 │── .gitignore              # Git ignore file
 │── README.md               # Project documentation
 ```
